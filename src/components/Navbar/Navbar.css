@@ -39,8 +39,6 @@ header li a {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   display: flex;
-  padding-left: 25px;
-  padding-right: 25px;
   width: clamp(768px, 1080px);
 }
 

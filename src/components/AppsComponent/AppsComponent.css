@@ -1,0 +1,23 @@
+#app{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: radial-gradient(#bfebff, #017ab1);
+    padding-bottom: 20px;
+  }
+  
+  .col-2{
+    color: aliceblue;
+  }
+  
+  .apps-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .subscribe{
+    text-align: center;
+  }

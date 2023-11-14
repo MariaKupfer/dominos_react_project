@@ -1,0 +1,42 @@
+footer{
+    text-align: center;
+  }
+  
+  .contacts{
+    width: 22%;
+    margin-bottom: 2rem;
+  }
+  
+  .social-media{
+    flex-direction: row;
+  }
+  
+  footer ul {
+    vertical-align: middle;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  footer li a {
+    display: block;
+    color: #454545;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 1rem;
+  }
+  
+  .apps{
+    border-right-color: #a9a9a9;
+    border-right-style: groove;
+    border-right-width: thin;
+    height: 30%;
+    padding-right: 20px;
+  }
+  
+  .sm{
+    padding-left: 20px;
+  }

@@ -1,0 +1,19 @@
+.big-red-button{
+    background: #e3002f;
+    width: 100%;
+    padding: 7px 10px 7px 10px;
+    margin: 2px;
+  }
+
+  .image-offer-card {
+    width: 30%;
+    margin-bottom: 30px;
+  }
+
+  .image-offer-card p{
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 2px 0 2px;
+  }

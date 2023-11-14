@@ -1,0 +1,27 @@
+.slider-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    max-width: 1500px;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    animation: slide 8s infinite alternate;
+  }
+  
+  @keyframes slide {
+    0%, 50% {
+      transform: translateX(0);
+  }
+  55%, 100% {
+      transform: translateX(-100%);
+  }
+  }
+  
+  .slider img {
+    width: 100%;
+    height: auto;
+  }
