@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, body, footer{
+  width: clamp(500px, 1080px);
+}
+
+@font-face {
+  font-family: 'EvelethClean';
+  src: url('fonts/eveleth_clean_regular-webfont.woff2') format('woff2'),
+       url('fonts/eveleth_clean_regular-webfont.woff') format('woff');
+}
