@@ -6,12 +6,14 @@ import secondImage from '../../assets/images/web-app_megawoche_publicwebsite_des
 const Animation = () => {
     return (
         <>
+        <div className="slider-positon">
         <div className="slider-container">
             <div className="slider">
                 <img src={firstImage}/>
                 <img src={secondImage} alt="baner"/>
             </div>
         </div> 
+        </div>
         </>
     );
 };

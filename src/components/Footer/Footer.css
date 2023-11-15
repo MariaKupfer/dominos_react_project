@@ -4,7 +4,6 @@ footer{
   
   .contacts{
     width: 22%;
-    margin-bottom: 2rem;
   }
   
   .social-media{
@@ -14,7 +13,6 @@ footer{
   footer ul {
     vertical-align: middle;
     list-style-type: none;
-    margin: 10px;
     padding: 0;
     overflow: hidden;
   }
@@ -33,10 +31,26 @@ footer{
     border-right-color: #a9a9a9;
     border-right-style: groove;
     border-right-width: thin;
-    height: 30%;
-    padding-right: 20px;
+    padding-right: 1.3rem;
   }
   
   .sm{
-    padding-left: 20px;
+    padding-left: 1.5rem;
+  }
+
+  .sm-icons{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  p{
+    padding-bottom: 0.5rem;
+  }
+
+  @media screen and (max-width: 768px) {
+  
+    .contacts{
+      flex-basis: 40%;
+    }
   }

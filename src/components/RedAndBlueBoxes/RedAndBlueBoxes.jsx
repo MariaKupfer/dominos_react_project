@@ -1,7 +1,7 @@
 import React from 'react';
 import './RedAndBlueBoxes.css'
-import bike from './img/bike.svg'
-import shop from './img/shop.svg'
+import bike from '../../assets/images/bike.svg'
+import shop from '../../assets/images/shop.svg'
 
 const RedAndBlueBoxes = () => {
     return (
@@ -15,7 +15,7 @@ const RedAndBlueBoxes = () => {
                     <br/>
                     <br/>
                     <div className="start-order-footer">
-                        <div className="arrow-box"><p><b>{'&#10141'}</b></p></div>
+                        <div className="arrow-box"><p><b>{'\u279D'}</b></p></div>
                     </div>
                 </a>
             </div>
@@ -29,7 +29,7 @@ const RedAndBlueBoxes = () => {
                     <br/>
                     <div className="start-order-footer" id="pickup-footer">
                         <div className="arrow-box" id="pickup">
-                            <p><b>{'&#10141'}</b></p>
+                            <p><b>{'\u279D'}</b></p>
                         </div>
                      </div>
                  </a>

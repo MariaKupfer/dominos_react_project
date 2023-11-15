@@ -1,19 +1,29 @@
 .big-red-button{
     background: #e3002f;
     width: 100%;
-    padding: 7px 10px 7px 10px;
-    margin: 2px;
+    padding: 0.5rem;
+  }
+  .image-offer-card img{
+    display: block;
+    width: 100%;
+    height: auto;
   }
 
   .image-offer-card {
     width: 30%;
-    margin-bottom: 30px;
   }
 
   .image-offer-card p{
-    font-size: 14px;
+    font-size: 1rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
     text-align: center;
-    padding: 0 2px 0 2px;
+    padding: 0.5rem 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .image-offer-card{
+      flex-basis: 100%;
+    }
+  
   }

@@ -7,7 +7,7 @@ const OfferCard = ({ title, content, validity, buttonText }) => {
         <h2>{title}</h2>
         <p>{content}</p>
         <h5>{validity}</h5>
-        <button className="small-red-button">{buttonText}</button>
+        <button className="small-red-button">{buttonText} {'\u276F'}</button>
       </div>
     );
   };

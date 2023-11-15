@@ -1,16 +1,16 @@
 import React from 'react';
 import './Footer.css'
-import appleIcon from './img/download_on_the_app_store_badge_de_wht_092917.webp'
-import googleIcon from './img/google-play-badge_negative.webp'
-import instagramIcon from './img/instagram_nl.webp'
-import youtubeIcon from './img/youtube_nl.webp'
-import facebookIcon from './img/facebook_nl.png'
+import appleIcon from '../../assets/images/download_on_the_app_store_badge_de_wht_092917.webp'
+import googleIcon from '../../assets/images/google-play-badge_negative.webp'
+import instagramIcon from '../../assets/images/instagram_nl.webp'
+import youtubeIcon from '../../assets/images/youtube_nl.webp'
+import facebookIcon from '../../assets/images/facebook_nl.png'
 
 const Footer = () => {
     return (
         <>
         <footer>
-        <div className="card-container">
+            <dic className="container-1080px">
             <div className="lists">
                 <ul className="contacts">
                     <li><a><strong>Produkte</strong></a></li>
@@ -46,10 +46,10 @@ const Footer = () => {
                     <li><a>Gewinnspiele</a></li>
                 </ul>
             </div>
-        </div>
+            </dic>
 
         <p>ENGLISH VISITOR? CLICK HERE</p>
-        <div className="card-container">
+        <div className="container-1080px">
             <div className="socoal-media-bar">
                 <div className="apps">
                     <h2> DU FINDEST UNSERE APPS UNTER </h2>
@@ -66,7 +66,7 @@ const Footer = () => {
                         <img src={youtubeIcon} className="icon-social-media"  height="40"/>
                     </div>
                 </div>
-            </div>
+                </div>
         </div>
 
         <div className="cookie">

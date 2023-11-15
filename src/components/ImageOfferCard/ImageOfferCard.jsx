@@ -8,7 +8,7 @@ const ImageOfferCard = ({image, title, buttonText }) => {
       <div className="image-offer-card">
         <img src={image} alt="eng" className="offerImage" width="300" height="300"/>
         <p>{title}</p>
-        <button className="big-red-button">{buttonText}</button>
+        <button className="big-red-button">{buttonText} {'\u276F'} </button>
       </div>
     );
   };

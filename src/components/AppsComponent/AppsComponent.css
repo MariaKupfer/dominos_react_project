@@ -1,11 +1,7 @@
-#app{
+  .container{
     display: flex;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     background: radial-gradient(#bfebff, #017ab1);
-    padding-bottom: 20px;
   }
   
   .col-2{
@@ -20,4 +16,10 @@
   
   .subscribe{
     text-align: center;
+  }
+
+  .big-blue-button-register-now{
+    background: #017ab1;
+    width: auto;
+    padding: 0.2rem;
   }

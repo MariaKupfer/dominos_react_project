@@ -1,17 +1,18 @@
 import React from 'react';
-import History from './components/History/History'
-import Animation from './components/Animation/Animation'
-import AppsComponent from './components/AppsComponent/AppsComponent'
-import OfferCard from './components/OfferCard/OfferCard';
-import ImageOfferCard from './components/ImageOfferCard/ImageOfferCard';
-import RedAndBlueBoxes from './components/RedAndBlueBoxes/RedAndBlueBoxes';
+import History from '../components/History/History';
+import Animation from '../components/Animation/Animation';
+import AppsComponent from '../components/AppsComponent/AppsComponent';
+import OfferCard from '../components/OfferCard/OfferCard';
+import ImageOfferCard from '../components/ImageOfferCard/ImageOfferCard';
+import RedAndBlueBoxes from '../components/RedAndBlueBoxes/RedAndBlueBoxes';
+import Container from '../components/Container/Container';
 
 const offerCardsData = [
     {
-      title: 'Liferung',
-      content: '1 PIZZA/PASTA + 1 SNACK  ODER DESSERT AB €9.99',
-      validity: 'NUR IN TEILNEHMENDEN STORES. GÜLTIG BIS 01-01-25. EINLÖSEBEDINGUNGEN >',
-      buttonText: 'JETZT BESTELLEN'
+        title: 'Liferung',
+        content: '1 PIZZA/PASTA + 1 SNACK  ODER DESSERT AB €9.99',
+        validity: 'NUR IN TEILNEHMENDEN STORES. GÜLTIG BIS 01-01-25. EINLÖSEBEDINGUNGEN >',
+        buttonText: 'JETZT BESTELLEN'
     },
     {
         title: 'Liferung',
@@ -49,41 +50,23 @@ const imageOfferCardsData = [
         title: 'PROBIERE JETZT UNSERE NEUEN AKTIONPIZZEN!',
         buttonText: 'JETZT BESTELLEN'
     }
-
-]
+];
 
 const Main = () => {
     return (
         <>
-        <h1>ONLINE BESTELLUNG</h1>
-        <RedAndBlueBoxes/>
-        <Animation/>
-        <hr/>
-        <h1>Store Angebote</h1>
-        <div className="row">
-            {offerCardsData.map((card, index) => (
-                <OfferCard
-                    title={card.title}
-                    content={card.content}
-                    validity={card.validity}
-                    buttonText={card.buttonText}
-             />
-            ))}
-        </div>
-        <h1>HUNGRIG NACH MEHR</h1>
-        <div className="row">
-            {imageOfferCardsData.map((card, index) => (
-                <ImageOfferCard
-                    image={card.image}
-                    title={card.title}
-                    buttonText={card.buttonText}
-             />
-            ))}
-        </div>
-        <AppsComponent/>
-        <hr/>
-        <h1>SCHMECK DEN UNTERSCHIED</h1>
-        <History/>
+            <h1>ONLINE BESTELLUNG</h1>
+            <RedAndBlueBoxes />
+            <Animation />
+            <hr />
+            <h1>Store Angebote</h1>
+            <Container cards={offerCardsData} CardComponent={OfferCard} />
+            <h1>HUNGRIG NACH MEHR</h1>
+            <Container cards={imageOfferCardsData} CardComponent={ImageOfferCard} />
+            <AppsComponent />
+            <hr />
+            <h1>SCHMECK DEN UNTERSCHIED</h1>
+            <History />
         </>
     );
 };
