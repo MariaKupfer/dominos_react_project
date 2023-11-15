@@ -1,0 +1,32 @@
+.slider-container {
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    height: auto;
+    overflow: hidden;
+    padding: 1rem;
+  }
+  
+  .slider {
+    display: flex;
+    animation: slide 8s infinite alternate;
+  }
+  
+  @keyframes slide {
+    0%, 50% {
+      transform: translateX(0);
+  }
+  55%, 100% {
+      transform: translateX(-100%);
+  }
+  }
+  
+  .slider img {
+    width: 100%;
+    height: auto;
+  }
+
+  .slider-positon{
+    display: flex;
+    justify-content: center;
+  }

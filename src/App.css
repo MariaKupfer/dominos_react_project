@@ -8,8 +8,70 @@ header, body, footer{
   width: clamp(500px, 1080px);
 }
 
+.container-1080px{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.row, .lists, .socoal-media-bar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 3rem;
+  max-width: 1080px;
+}
+
+hr{
+  border: 0;
+  height: 5px;
+  border-radius: 8px;
+  background-color: #0073ab;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 @font-face {
   font-family: 'EvelethClean';
-  src: url('fonts/eveleth_clean_regular-webfont.woff2') format('woff2'),
-       url('fonts/eveleth_clean_regular-webfont.woff') format('woff');
+  src: url('./assets/fonts/eveleth_clean_regular-webfont.woff2') format('woff2'),
+       url('./assets/fonts/eveleth_clean_regular-webfont.woff') format('woff');
+}
+
+button{
+  display: inline-block;
+  border-style:none;
+  padding-block: 0.5rem;
+  padding-inline: 0.5rem;
+  border-radius: 5px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1, h2, h3{
+  font-family: EvelethClean;
+  text-align: center;
+  padding: 0.6rem;
+  
+}
+
+main h3{
+font-size: small;
+color: dimgray;
+padding: 0.6 rem;
+}
+
+p, h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h5{
+font-size: 0.6rem;
+color: dimgray;
+font-family: "droid_sans",verdana,sans-serif;
 }

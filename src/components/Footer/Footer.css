@@ -1,0 +1,56 @@
+footer{
+    text-align: center;
+  }
+  
+  .contacts{
+    width: 22%;
+  }
+  
+  .social-media{
+    flex-direction: row;
+  }
+  
+  footer ul {
+    vertical-align: middle;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  footer li a {
+    display: block;
+    color: #454545;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 1rem;
+  }
+  
+  .apps{
+    border-right-color: #a9a9a9;
+    border-right-style: groove;
+    border-right-width: thin;
+    padding-right: 1.3rem;
+  }
+  
+  .sm{
+    padding-left: 1.5rem;
+  }
+
+  .sm-icons{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  p{
+    padding-bottom: 0.5rem;
+  }
+
+  @media screen and (max-width: 768px) {
+  
+    .contacts{
+      flex-basis: 40%;
+    }
+  }

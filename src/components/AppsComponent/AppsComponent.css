@@ -1,0 +1,25 @@
+  .container{
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(#bfebff, #017ab1);
+  }
+  
+  .col-2{
+    color: aliceblue;
+  }
+  
+  .apps-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .subscribe{
+    text-align: center;
+  }
+
+  .big-blue-button-register-now{
+    background: #017ab1;
+    width: auto;
+    padding: 0.2rem;
+  }

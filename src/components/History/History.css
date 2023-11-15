@@ -1,0 +1,30 @@
+.history{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px; 
+    text-align: center;
+  }
+
+  .columns{
+    display: flex;
+    max-width: 1080px;
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-wrap: wrap;
+  }
+  
+  .subcolumn{
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  p{
+    padding-bottom: 1rem;
+  }
+
+  .container-hystory{
+    display: flex;
+    justify-content: center;
+  }
